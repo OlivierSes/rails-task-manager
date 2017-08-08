@@ -1,3 +1,65 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.banner{
+  background-color: rgb(220,220,220) !important;
+  // margin-top: 0px !important;
+  // margin-left: 0px !important;
+  height: 200px !important;
+  text-align: center !important;
+  padding-top: 50px !important;
+  width: 100% !important;
+  h1{
+    color: white !important;
+    font-family: 'Saira', sans-serif !important;
+  }
+}
+
+.row{
+  padding-left: 50px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.super-list{
+  font-family: 'Saira', sans-serif ;
+  list-style-type: upper-roman;
+  margin-bottom: 5px;
+}
+
+.btn{
+  font-family: 'Saira', sans-serif !important;
+}
+
+.btn-fixed-width{
+  width: 150px !important;
+}
+
+.btn-last{
+  width: 150px !important;
+  margin-left: 75px !important;
+  margin-top: 15px!important;
+  background-color: rgb(220,220,220) !important;
+  color: white !important;
+}
+
+.fixed-heigth{
+  height: 20px !important;
+}
+
+.fixed-width{
+  width: 500px !important;
+}
+
+.fixed-width-large{
+  width: 600px !important;
+}
+
+.container-inline{
+  display: inline-block !important;
+}
+
+.flex-box{
+  display: flex;
+  justify-content: space-between;
+}
